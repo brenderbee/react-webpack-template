@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest; exit 0",
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --open",
     "lint": "eslint src/index.jsx src/**/**; exit 0",
     "lint-fix": "eslint src/index.jsx src/**/** --fix; exit 0"
   },
